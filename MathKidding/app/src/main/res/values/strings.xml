@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ছোটদের গণিত</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_add_play">চল সমাধান করি</string>
+    <string name="title_activity_level">LevelActivity</string>
+    <string name="title_activity_play">PlayActivity</string>
+    <string name="title_activity_operation">OperationActivity</string>
+    <string name="title_activity_contact">ContactActivity</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="title_activity_info">InfoActivity</string>
+
+    <string name="congrats">অভিনন্দন!!! তোমার উত্তরটি  সঠিক</string>
+    <string name="sorry">দুঃখিত!!! তোমার উত্তরটি  ভুল</string>
+    <string name="title_activity_counting">CountingActivity</string>
+</resources>

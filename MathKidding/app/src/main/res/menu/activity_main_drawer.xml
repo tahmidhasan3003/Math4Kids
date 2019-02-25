@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/icon_home"
+            android:title="হোম" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/icon_help"
+            android:title="খেলার নিয়ম" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/icon_settings"
+            android:title="সেটিংস" />
+    </group>
+    <item android:title="ডেভেলপার">
+        <menu>
+            <item
+                android:id="@+id/nav_info"
+                android:icon="@drawable/icon_developer"
+                android:title="পরিচিতি" />
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/icon_contact"
+                android:title="যোগাযোগ" />
+        </menu>
+    </item>
+
+</menu>

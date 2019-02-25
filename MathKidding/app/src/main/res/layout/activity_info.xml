@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.wordpress.tahmidcse.mathkidding.InfoActivity">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="com.wordpress.tahmidcse.mathkidding.InfoActivity"
+        tools:showIn="@layout/activity_info">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#b29095"
+            android:paddingBottom="30dp">
+
+            <ImageView
+                android:layout_width="220dp"
+                android:layout_height="280dp"
+                android:id="@+id/tahmid_image"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:paddingTop="20dp"
+                android:paddingBottom="8dp"
+                android:src="@drawable/tahmid" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Md Tahmid Hasan Sarkar ShiShir"
+                android:id="@+id/tahmid_name"
+                android:layout_below="@+id/tahmid_image"
+                android:textStyle="bold|italic"
+                android:textIsSelectable="true"
+                android:textSize="38dp"
+                android:longClickable="true"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingTop="4dp"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Session: 2014-15"
+                android:id="@+id/tahmid_session"
+                android:layout_below="@+id/tahmid_name"
+                android:textStyle="bold|italic"
+                android:textIsSelectable="true"
+                android:textSize="18dp"
+                android:longClickable="true"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingTop="4dp"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@android:style/Widget.Spinner"
+                android:text="Department of Computer Science and Engineering (CSE)"
+                android:id="@+id/tahmid_subject"
+                android:layout_below="@+id/tahmid_session"
+                android:textSize="22dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="6dp"
+                android:paddingRight="6dp"
+                android:paddingLeft="6dp"
+                android:textAlignment="viewStart"
+                android:textIsSelectable="true"
+                android:longClickable="true"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@android:style/Widget.Spinner"
+                android:text="Bangabandhu Sheikh Mujibur Rahman Science and Technology University (BSMRSTU)"
+                android:id="@+id/tahmid_university"
+                android:layout_below="@+id/tahmid_subject"
+                android:textSize="22dp"
+                android:paddingTop="4dp"
+                android:paddingRight="6dp"
+                android:paddingLeft="6dp"
+                android:textAlignment="viewStart"
+                android:textIsSelectable="true"
+                android:longClickable="true"
+                />
+
+        </RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/app_bar_height"
+        android:fitsSystemWindows="true"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/toolbar_layout"
+            android:layout_width="match_parent"
+            app:title="পরিচিতি"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+</android.support.design.widget.CoordinatorLayout>

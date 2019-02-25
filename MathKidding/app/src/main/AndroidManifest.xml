@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wordpress.tahmidcse.mathkidding">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/muhtasim"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LevelActivity"
+            android:label="@string/title_activity_level" />
+        <activity
+            android:name=".PlayActivity"
+            android:label="@string/title_activity_play" />
+        <activity
+            android:name=".OperationActivity"
+            android:label="@string/title_activity_operation" />
+        <activity
+            android:name=".InfoActivity"
+            android:label="@string/title_activity_info" />
+        <activity
+            android:name=".ContactActivity"
+            android:label="@string/title_activity_contact" />
+    </application>
+
+</manifest>
